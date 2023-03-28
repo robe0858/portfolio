@@ -1,0 +1,16 @@
+:root {
+    --bs-primary: #11402F;
+    --bs-primary-rgb: 
+    --bs-secondary: #A7D9D0;
+    --bs-light: #F2F0E4;
+    --bs-dark: #414042;
+}
+
+body {
+    background-color: var(--bs-light);
+}
+
+.carousel-item img {
+    height: auto;
+    width: 100%;
+  }

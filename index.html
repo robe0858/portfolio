@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<!-- jQuery and Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Mikaela Roberts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About + Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photography</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- MAIN CONTENT -->
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 my-3 text-center align-self-center">
+                <div>
+                    <h1 class="display-6">Photographer Based in Ottawa, Ontario.</h1>
+                    <p class="lead text-md">Mikaela is a Canadian photographer and
+                        storyteller based in Ottawa, Ontario. She
+                        graduated from Concordia University's Mel
+                        Hoppenheim School of Cinema with a BFA in Film
+                        Production and is currently studying Interactive
+                        Media Design at Algonquin College.
+                        In her work, Mikaela seeks to highlight unique
+                        Canadian identities and tell visual stories
+                        through digital media.</p>
+                    <a href="#" class="btn btn-primary rounded-1 text-lg">About + Contact</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid my-3" src="/images/roberts_mikaela.png" alt="Mikaela Roberts">
+            </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 my-3 order-md-2 text-center align-self-center">
+                <h1 class="display-6 text-center my-3">Photography</h1>
+                <p class="text-center">A collection of photography, ranging from wildlife and lanscape to portrait and in-studio photography.</p>
+                <a href="#" class="btn btn-primary rounded-1 text-lg">View</a>
+            </div>
+            <div class="col-md-6">
+                <div id="carouselPhotographyHome" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                            <picture>
+                                <source srcset="images/photography/photography-home-carousel/mobile/low-res/autumn_fox-320_x_320.jpeg,
+                                images/photography/photography-home-carousel/mobile/high-res/autumn_fox-759_x_759.jpeg 2x"
+                                media="(max-width: 759px)">
+                                <source srcset="images/photography/photography-home-carousel/desktop/low-res/autumn_fox-760_x_760.jpeg,
+                                images/photography/photography-home-carousel/desktop/high-res/autumn_fox-1200_x_1200.jpeg 2x"
+                                media="(max-width: 1600px)">
+                                <img src="/images/photography/autumn_fox.JPG" class="d-block w-100" alt="An autumn fox">
+                            </picture>
+                      </div>
+                      <div class="carousel-item active">
+                        <picture>
+                            <source srcset="images/photography/photography-home-carousel/mobile/low-res/red_shed_1-320_x_320.jpeg,
+                            images/photography/photography-home-carousel/mobile/high-res/red_shed_1-759_x_759.jpeg 2x"
+                            media="(max-width: 759px)">
+                            <source srcset="images/photography/photography-home-carousel/desktop/low-res/red_shed_1-760_x_760.jpeg,
+                            images/photography/photography-home-carousel/desktop/high-res/red_shed_1-1200_x_1200.jpeg 2x"
+                            media="(max-width: 1600px)">
+                            <img src="/images/photography/red_shed_1.JPG" class="d-block w-100" alt="A red fishing shed">
+                        </picture>
+                     </div>
+                     <div class="carousel-item active">
+                        <picture>
+                            <source srcset="images/photography/photography-home-carousel/mobile/low-res/cam_alex_1-320_x_320.jpeg,
+                            images/photography/photography-home-carousel/mobile/high-res/cam_alex_1-759_x_759.jpeg 2x"
+                            media="(max-width: 759px)">
+                            <source srcset="images/photography/photography-home-carousel/desktop/low-res/cam_alex_1-760_x_760.jpeg,
+                            images/photography/photography-home-carousel/desktop/high-res/cam_alex_1-1200_x_1200.jpeg 2x"
+                            media="(max-width: 1600px)">
+                            <img src="/images/photography/cam_alex_1.JPG" class="d-block w-100" alt="A portrait of a couple embracing in the snow">
+                        </picture>
+                    </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotographyHome" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotographyHome" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+      </div>
+
+      <footer></footer>
+
+</body>
+
+<!-- use col-md  -->
