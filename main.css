@@ -1,13 +1,26 @@
 :root {
     --bs-primary: #11402F;
-    --bs-primary-rgb: 
+    --bs-primary-rgb: 17,64,47;
     --bs-secondary: #A7D9D0;
-    --bs-light: #F2F0E4;
+    --bs-secondary-rgb: 167,217,208;
+    --bs-light: #f0f0f0;
+    --bs-light-rgb: 240,240,240;
     --bs-dark: #414042;
+    --bs-dark-rgb: 65,64,66;
 }
 
 body {
     background-color: var(--bs-light);
+}
+
+.btn-primary {
+    --bs-btn-bg: #11402F;
+    --bs-btn-text: #F2F0E4;
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-secondary);
+    color: var(--bs-dark);
 }
 
 .carousel-item img {
