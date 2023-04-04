@@ -18,10 +18,6 @@ body {
     --bs-btn-text: #F2F0E4;
 }
 
-.btn-primary:hover {
-    background-color: var(--bs-secondary);
-    color: var(--bs-dark);
-}
 
 .carousel-item img {
     height: auto;
