@@ -37,7 +37,7 @@
       <!-- MAIN CONTENT -->
 
       <div class="container">
-        <div class="row">
+        <div class="row d-flex">
             <div class="col-md-6 my-3 text-center align-self-center">
                 <div>
                     <h1 class="display-6 text-dark">Photographer Based in Ottawa, Ontario.</h1>
@@ -53,9 +53,17 @@
                     <a href="/aboutcontact.html" class="btn btn-primary rounded-1 border-0">About + Contact</a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid my-3 rounded-1" src="/images/roberts_mikaela.png" alt="Mikaela Roberts">
-            </div>
+          <div class="col-md-6">
+            <picture>
+              <source srcset="images/mobile/low-res/roberts_mikaela-213_x_320.png,
+                images/mobile/high-res/roberts_mikaela-506_x_759.png 2x"
+                media="(max-width: 759px)">
+              <source srcset="images/desktop/low-res/roberts_mikaela-507_x_760.png,
+                images/desktop/high-res/roberts_mikaela-800_x_1200.png 2x"
+                media="(max-width: 1600px)">
+              <img class="img-fluid my-3 rounded-1" src="/images/roberts_mikaela.png" alt="Mikaela Roberts">
+            </picture>
+          </div>
         </div>
       </div>
 
